@@ -1,0 +1,11 @@
+---
+description: Where PRD and tasks live for HotelRwd
+---
+
+# Project context
+
+- **PRD:** `docs/prd/PRD.md`
+- **Tasks:** `tasks/backlog/` (see `tasks/README.md`)
+- **App code:** `src/app/` (Next.js App Router), shared UI in `src/components/`, helpers in `src/lib/`
+
+When planning work from the PRD, write tasks under `tasks/backlog/` and link back to PRD sections.

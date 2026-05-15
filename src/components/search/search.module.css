@@ -1,0 +1,172 @@
+.section {
+  padding: 24px 20px 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.titleBlock {
+  margin-bottom: 28px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.cardRow {
+  composes: row;
+  margin-bottom: 20px;
+}
+
+.cardToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--fg);
+  cursor: pointer;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 12px;
+}
+
+.cardToggle[data-active="true"] {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+.infoBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1;
+  padding: 2px;
+}
+
+.cppRow {
+  composes: row;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.chip {
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--fg);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.chip[data-active="true"] {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+.customCpp {
+  width: 72px;
+  padding: 6px 8px;
+  border: 1px solid var(--rule);
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 12px;
+}
+
+.searchGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 720px) {
+  .searchGrid {
+    grid-template-columns: 1.2fr repeat(2, 1fr) auto;
+    align-items: end;
+  }
+}
+
+.fieldLabel {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.textInput {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--rule);
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 13px;
+}
+
+.primaryBtn {
+  border: 1px solid var(--teal);
+  background: var(--teal);
+  color: #fff;
+  padding: 10px 20px;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.primaryBtn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.resultStrip {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+}
+
+.hotelList {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+
+.hotelList li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 13px;
+}
+
+.badgeRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.pill {
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--rule);
+}
+
+.pillProgram {
+  composes: pill;
+  border-color: rgba(15, 110, 86, 0.35);
+  color: var(--teal);
+}
+
+.pillQuality {
+  composes: pill;
+  border-color: rgba(92, 89, 85, 0.35);
+  color: var(--muted);
+}

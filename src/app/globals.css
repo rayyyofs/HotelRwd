@@ -1,0 +1,61 @@
+:root {
+  --bg: #f7f5f0;
+  --fg: #1a1917;
+  --muted: #5c5955;
+  --rule: rgba(26, 25, 23, 0.12);
+  --teal: #0f6e56;
+  --amber: #b45309;
+  --pill-program-bg: rgba(15, 110, 86, 0.08);
+  --pill-program-fg: var(--teal);
+  --pill-quality-bg: rgba(92, 89, 85, 0.12);
+  --pill-quality-fg: var(--muted);
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 4px var(--teal);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero-serif {
+  font-family: var(--font-serif), "Lora", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.mono-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.hairline {
+  border: 1px solid var(--rule);
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+[role="checkbox"]:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}

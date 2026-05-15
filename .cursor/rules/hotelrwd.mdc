@@ -1,11 +1,13 @@
 ---
-description: Where PRD and tasks live for HotelRwd
+description: Where PRD, plans, and tasks live for HotelRwd
+alwaysApply: true
 ---
 
 # Project context
 
 - **PRD:** `docs/prd/PRD.md`
-- **Tasks:** `tasks/backlog/` (see `tasks/README.md`)
+- **Plans:** `docs/plans/` (MVP: `docs/plans/2026-05-15-mvp-phase1.md`)
+- **Tasks:** `tasks/mvp/STATUS.md`, `tasks/backlog/MVP-*.md`, `tasks/done/`
 - **App code:** `src/app/` (Next.js App Router), shared UI in `src/components/`, helpers in `src/lib/`
 
-When planning work from the PRD, write tasks under `tasks/backlog/` and link back to PRD sections.
+When planning from the PRD, use backlog tasks and the active plan. Follow `.cursor/rules/plan-and-task-tracking.mdc` when implementation changes scope or completes tasks.

@@ -1,6 +1,7 @@
 # Tasks
 
-- **Backlog:** `tasks/backlog/` — add one file per task (for example `TODO-001.md`) or a single list file.
-- **Done:** move finished task files into `tasks/done/` when you want an archive.
+- **MVP dashboard:** `tasks/mvp/STATUS.md` — at-a-glance status for Phase 1
+- **Backlog:** `tasks/backlog/` — active MVP slices (`MVP-*.md`)
+- **Done:** `tasks/done/` — completed slices (mirror of backlog format)
 
-Each task should briefly state **what**, **acceptance criteria**, and **PRD reference** (section or requirement ID).
+Each task should state **what**, **acceptance criteria**, and **PRD reference**. Link to the plan: `docs/plans/2026-05-15-mvp-phase1.md`.

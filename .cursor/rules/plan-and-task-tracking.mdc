@@ -1,0 +1,49 @@
+---
+description: Keep MVP plan and task STATUS in sync when work changes
+alwaysApply: true
+---
+
+# Plan and task tracking
+
+## Canonical locations
+
+- **Plan:** `docs/plans/2026-05-15-mvp-phase1.md`
+- **Dashboard:** `tasks/mvp/STATUS.md`
+- **Task slices:** `tasks/backlog/MVP-*.md` → move to `tasks/done/` when complete
+
+## When to update (required)
+
+Update plan and status in the **same session** whenever you:
+
+1. **Complete** a backlog task (MVP-001 … MVP-011)
+2. **Split, merge, or re-scope** a task
+3. **Add or remove** acceptance criteria or plan steps
+4. **Discover** a blocker or decision that affects the plan
+5. **Finish** a plan checkbox (`- [ ]` → `- [x]`)
+
+Do **not** leave code changes without matching doc updates when the work maps to an MVP task.
+
+## What to update
+
+| Change | Update |
+|--------|--------|
+| Task finished | `tasks/mvp/STATUS.md` → `done`; checkboxes in plan Task N; `**Status:** done` in backlog file; move file to `tasks/done/` |
+| Task in progress | STATUS → `in_progress`; backlog `**Status:** in_progress` |
+| New sub-step in plan | Add checkbox under the right Task in the plan; optional new `MVP-NNN` backlog file if it's a distinct deliverable |
+| Scope cut / deferred | Note in plan + backlog **Notes**; do not delete history without user approval |
+
+## Checkbox sync
+
+- Plan file: `- [ ]` / `- [x]` on implementation steps
+- Backlog file: acceptance criteria checkboxes
+- STATUS.md: single `pending` | `in_progress` | `done` per MVP row
+
+## PRD vs plan
+
+- **PRD** (`docs/prd/PRD.md`) = product truth; change only when requirements change
+- **Plan** = implementation truth; change when how/when changes
+- Link backlog tasks to PRD sections; do not duplicate full PRD text in the plan
+
+## Before claiming work complete
+
+Run verification (tests/lint/build per MVP-011), then confirm STATUS and plan checkboxes reflect reality.

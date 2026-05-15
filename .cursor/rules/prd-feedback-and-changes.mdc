@@ -1,0 +1,39 @@
+---
+description: On product/UI feedback, compare to PRD, classify scope, gate PRD edits on user approval
+alwaysApply: true
+---
+
+# PRD feedback workflow
+
+When the user proposes changes to **UI/layout**, **branding/taglines**, **navigation**, **features**, **data behavior**, **MVP scope**, or **success criteria**:
+
+## 1. Read the PRD
+
+Open [docs/prd/PRD.md](docs/prd/PRD.md) (use the Read tool if it is not already in context). Map the feedback to concrete sections—for example §5 Core Features — MVP, §10 UX Principles, §11 Design Language, §12 Navigation, §7 What HotelRwd Is Not, §8 Data Architecture.
+
+## 2. Classify (pick one; explain briefly)
+
+- **PRD-level:** The feedback conflicts with, narrows, broadens, or adds **requirements** documented in the PRD (features, UX promises, locked design language, phased scope, explicit non-goals).
+- **Plan-level:** The PRD already allows it; only [docs/plans/2026-05-15-mvp-phase1.md](docs/plans/2026-05-15-mvp-phase1.md) and/or [tasks/](tasks/) need updates.
+- **Implementation-only:** The change fits the PRD and plan; adjust code, CSS, or in-app copy only.
+
+## 3. Respond to the user
+
+- State the classification and **which PRD sections** would change—or state **no PRD impact**.
+- If the change is **PRD-level**, ask one clear question: **“Should I update `docs/prd/PRD.md` to reflect this, or keep the PRD unchanged and only adjust plan/tasks/code?”**
+
+## 4. Edit gates
+
+- **Do not** modify `docs/prd/PRD.md` until the user **explicitly approves** a PRD update (e.g. “yes, update the PRD”).
+- If the user approves: update the PRD with accurate wording; add a bullet under **What Changed** and bump **Version** when the change is substantive; then sync **plan**, **STATUS**, and **backlog/done** per `.cursor/rules/plan-and-task-tracking.mdc`.
+
+## 5. If the user declines a PRD change
+
+Implement via plan, tasks, and/or code only. If the implementation intentionally diverges from the old PRD wording until a future PRD edit, note that in the relevant task **Notes**.
+
+## Related rules
+
+- `.cursor/rules/hotelrwd.mdc` — canonical paths for PRD, plans, and tasks.
+- `.cursor/rules/plan-and-task-tracking.mdc` — keep plan and task status aligned when scope changes.
+
+**Optional:** If this rule feels too chatty for every session, set `alwaysApply: false` and enable it from the rule picker when giving product feedback.

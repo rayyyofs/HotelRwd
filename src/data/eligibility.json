@@ -1,0 +1,142 @@
+[
+  {
+    "id": "kimpton-monaco-slc",
+    "name": "Kimpton Hotel Monaco Salt Lake City",
+    "brand": "Kimpton",
+    "city": "Salt Lake City",
+    "neighborhood": "Downtown",
+    "starRating": 4,
+    "programs": ["FHR", "EDIT"],
+    "marriottCategory": 6
+  },
+  {
+    "id": "grand-america-slc",
+    "name": "Grand America Hotel",
+    "brand": "Independent",
+    "city": "Salt Lake City",
+    "neighborhood": "Downtown",
+    "starRating": 5,
+    "programs": ["FHR"]
+  },
+  {
+    "id": "hyatt-regency-slc",
+    "name": "Hyatt Regency Salt Lake City",
+    "brand": "Hyatt",
+    "city": "Salt Lake City",
+    "neighborhood": "Convention District",
+    "starRating": 4,
+    "programs": ["DIRECT"]
+  },
+  {
+    "id": "slc-marriott-city-center",
+    "name": "Salt Lake Marriott Downtown at City Creek",
+    "brand": "Marriott",
+    "city": "Salt Lake City",
+    "neighborhood": "City Creek",
+    "starRating": 4,
+    "programs": ["CERT_35K", "EDIT"],
+    "marriottCategory": 5
+  },
+  {
+    "id": "alvear-palace-ba",
+    "name": "Alvear Palace Hotel",
+    "brand": "Leading Hotels",
+    "city": "Buenos Aires",
+    "neighborhood": "Recoleta",
+    "starRating": 5,
+    "programs": ["FHR", "EDIT"]
+  },
+  {
+    "id": "four-seasons-ba",
+    "name": "Four Seasons Hotel Buenos Aires",
+    "brand": "Four Seasons",
+    "city": "Buenos Aires",
+    "neighborhood": "Retiro",
+    "starRating": 5,
+    "programs": ["FHR"]
+  },
+  {
+    "id": "park-hyatt-ba",
+    "name": "Park Hyatt Buenos Aires",
+    "brand": "Park Hyatt",
+    "city": "Buenos Aires",
+    "neighborhood": "Palermo",
+    "starRating": 5,
+    "programs": ["EDIT", "DIRECT"]
+  },
+  {
+    "id": "sheraton-pilar",
+    "name": "Sheraton Pilar Hotel & Convention Center",
+    "brand": "Sheraton",
+    "city": "Buenos Aires",
+    "neighborhood": "Pilar",
+    "starRating": 4,
+    "programs": ["CERT_35K"],
+    "marriottCategory": 4
+  },
+  {
+    "id": "st-regis-chicago",
+    "name": "The St. Regis Chicago",
+    "brand": "St. Regis",
+    "city": "Chicago",
+    "neighborhood": "Lakeshore East",
+    "starRating": 5,
+    "programs": ["FHR", "CERT_50K"],
+    "marriottCategory": 8
+  },
+  {
+    "id": "langham-chicago",
+    "name": "The Langham Chicago",
+    "brand": "Langham",
+    "city": "Chicago",
+    "neighborhood": "River North",
+    "starRating": 5,
+    "programs": ["FHR"]
+  },
+  {
+    "id": "virgin-hotels-chicago",
+    "name": "Virgin Hotels Chicago",
+    "brand": "Virgin",
+    "city": "Chicago",
+    "neighborhood": "Loop",
+    "starRating": 4,
+    "programs": ["C1_PREMIER", "EDIT"]
+  },
+  {
+    "id": "londonhouse-chicago",
+    "name": "LondonHouse Chicago Curio",
+    "brand": "Curio Collection",
+    "city": "Chicago",
+    "neighborhood": "Michigan Ave",
+    "starRating": 4,
+    "programs": ["CERT_35K", "FHR"],
+    "marriottCategory": 6
+  },
+  {
+    "id": "waldorf-chicago",
+    "name": "Waldorf Astoria Chicago",
+    "brand": "Waldorf Astoria",
+    "city": "Chicago",
+    "neighborhood": "Gold Coast",
+    "starRating": 5,
+    "programs": ["DIRECT"]
+  },
+  {
+    "id": "the-peninsula-chicago",
+    "name": "The Peninsula Chicago",
+    "brand": "Peninsula",
+    "city": "Chicago",
+    "neighborhood": "Near North Side",
+    "starRating": 5,
+    "programs": ["FHR", "EDIT"]
+  },
+  {
+    "id": "conrad-chicago",
+    "name": "Conrad Chicago",
+    "brand": "Conrad",
+    "city": "Chicago",
+    "neighborhood": "Magnificent Mile",
+    "starRating": 5,
+    "programs": ["C1_PREMIER"]
+  }
+]

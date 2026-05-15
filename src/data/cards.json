@@ -1,0 +1,53 @@
+[
+  {
+    "id": "amex_platinum",
+    "label": "Amex Platinum",
+    "programs": ["FHR"],
+    "infoPanel": {
+      "title": "Amex Platinum — hotel benefits",
+      "bullets": [
+        "Fine Hotels & Resorts: breakfast, upgrades, property credits at 3,100+ hotels.",
+        "Up to $300 semi-annual hotel credit (shared with Hotel Collection).",
+        "No minimum stay on FHR bookings."
+      ]
+    }
+  },
+  {
+    "id": "chase_csr",
+    "label": "Chase Sapphire Reserve",
+    "programs": ["EDIT"],
+    "infoPanel": {
+      "title": "Chase Sapphire Reserve — The Edit",
+      "bullets": [
+        "The Edit: breakfast, upgrades, $100 property credit at participating hotels.",
+        "Up to $500 annual hotel credit ($250 max per eligible transaction).",
+        "Two-night minimum stay for Edit bookings."
+      ]
+    }
+  },
+  {
+    "id": "capital_one_venture_x",
+    "label": "Capital One Venture X",
+    "programs": ["C1_PREMIER"],
+    "infoPanel": {
+      "title": "Capital One Venture X — Premier Collection",
+      "bullets": [
+        "Premier Collection properties include a $100 experience credit per stay.",
+        "Compare portal vs. direct paths before booking."
+      ]
+    }
+  },
+  {
+    "id": "marriott_boundless",
+    "label": "Marriott Bonvoy Boundless",
+    "programs": ["CERT_35K", "CERT_50K"],
+    "infoPanel": {
+      "title": "Marriott Bonvoy Boundless — free night certs",
+      "bullets": [
+        "Use annual free night awards (category caps vary by certificate type).",
+        "Cert covers room rate; resort fees typically paid separately.",
+        "HotelRwd does not track remaining certs in MVP."
+      ]
+    }
+  }
+]
